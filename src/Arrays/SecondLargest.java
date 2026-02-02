@@ -9,6 +9,11 @@ public class SecondLargest {
 		
 		int[] arr = {10,20,30,40,50};
 		
+		if(arr.length<2) {
+			System.out.println("No Second Largest Number");
+			return;
+		}
+		
 		int largest = Integer.MIN_VALUE;
 		int second = Integer.MIN_VALUE;
 		
@@ -22,7 +27,12 @@ public class SecondLargest {
 				second = num;
 			}
 		}
-		System.out.println("Largest:"+largest);
-		System.out.println("Second:"+second);
+		System.out.println(largest);
+		
+		if (second == Integer.MIN_VALUE) {
+		    System.out.println("No Second Largest Number");
+		} else {
+		    System.out.println("Second:" + second);
+		}
 	}
 }

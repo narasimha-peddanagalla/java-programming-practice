@@ -5,7 +5,7 @@ public class ReverseWords {
 	public static void main(String[] args) {
 		String str = "Java is easy";
 		
-		String[] words = str.split(" ");
+		String[] words = str.split("//s+");
 		
 		StringBuilder result = new StringBuilder();
 		

@@ -7,7 +7,7 @@ public class CharacterFrequency {
 	public static void main(String[] args) {
 		String str = "programming";
 		
-		str = str.toLowerCase().replaceAll("\\s", "");
+		str = str.toLowerCase().replaceAll("\\s+", "");
 		
 		int[] count = new int[256];
 		

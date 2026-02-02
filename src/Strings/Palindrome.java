@@ -1,7 +1,9 @@
 package Strings;
 //Check Given String is Palindrome Or Not
+
 public class Palindrome {
 	public static void main(String[] args) {
+		
 		String str = " Nurses run ";
 		
 		//Convert to LowerCase and remove extra spaces
@@ -14,7 +16,6 @@ public class Palindrome {
 			char ch = str.charAt(i);
 			reversed.append(ch);
 		}
-		
 		
 		System.out.println(str.equals(reversed.toString()) ? "Palindrome" : "Not Palindrome");
 	}

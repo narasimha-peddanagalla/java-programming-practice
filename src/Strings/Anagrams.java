@@ -15,10 +15,10 @@ public class Anagrams {
 		}
 		else {
 			System.out.println("Not Anagrams");
-		}
+		}	
 	}
 	
-	//Methos to Check Anagram
+	//Method to Check Anagram
 	public static boolean areAnagrams(String s1,String s2) {
 		
 		//Edge Case - case-insensitive & ignore spaces
@@ -38,7 +38,7 @@ public class Anagrams {
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
 		
-		//4.Compare to Arrays & Return
+		//4.Compare two Arrays & Return
 		return Arrays.equals(ch1,ch2);
 	}
 }

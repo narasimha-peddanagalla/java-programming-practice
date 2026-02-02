@@ -22,3 +22,5 @@ public class RemoveDuplicates2 {
 	}
 
 }
+
+//indexOf()-returns index postion of first occurence of the character if present else -1

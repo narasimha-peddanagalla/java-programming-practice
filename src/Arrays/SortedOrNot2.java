@@ -8,10 +8,13 @@ Input:  [1, 3, 2, 4] -> Output: Not Sorted
 public class SortedOrNot2 {
 	public static void main(String[] args) {
 		
-		int[] arr = {9};
+		int[] arr = {9, 7, 5, 1, 2};
 		
 		//Edge case
-		
+		if(arr.length == 1) {
+			System.out.println("Sorted");
+			return;
+		}
 		
 		boolean isAsc = true;
 		boolean isDesc = true;
@@ -36,5 +39,4 @@ public class SortedOrNot2 {
 			System.out.println("Not Sorted");
 		}
 	}
-
 }

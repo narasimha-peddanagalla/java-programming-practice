@@ -5,7 +5,7 @@ package Strings;
 public class Palindrome2 {
 	public static void main(String[] args) {
 		
-		String str = "Nurses run";
+		String str = "Nurses run ";
 		
 		//Edge Case - Case insensitive & Avoid spaces
 		str = str.toLowerCase().replaceAll("\\s+","");
