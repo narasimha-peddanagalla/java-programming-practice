@@ -9,7 +9,7 @@ public class PerfectNumber {
 		System.out.println("Enter a Number:");
 		int num = sc.nextInt();
 		
-		if(num <= 1) {
+		if(num < 1) {
 			System.out.println("Not Perfect");
 			return;
 		}

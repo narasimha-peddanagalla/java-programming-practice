@@ -8,7 +8,7 @@ public class NumberPalindrome {
 		System.out.println("Enter a Number:");
 		int num = sc.nextInt();
 		
-		//Edge Cases
+		//Edge Case
 		if(num<0) {
 			System.out.println("Not Palindrome");
 			return;
