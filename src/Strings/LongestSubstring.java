@@ -4,10 +4,11 @@ import java.util.HashSet;
 Find the length of the longest substring without repeating characters.
 A substring must be continuous and contain only unique characters.
 Input: String str = "abcabcbb";
-Output: Longest substring length: 3 (The substring is "abc")
-*/
+Output: Longest substring : abc | length: 3 
 
-//Approach-1 : Bruteforce - Time Complexity: O(n)^2
+Approach-1 : Bruteforce Technique
+Time Complexity: Worst, Average, Best -  O(n)^2
+*/
 public class LongestSubstring {
 	public static void main(String[] args) {
 		String str = "abcabcbb";
