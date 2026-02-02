@@ -12,15 +12,15 @@ public class Pangram {
 	
 	public static void main(String[] args) {
 		
-		String str = "A Quick Brown Fox Jumps Over the Lazy Dog";
+		String str = "A Quick Brown Fox Jumps Over the Lazy Dog @123 ";
 		
 		System.out.println(isPanagram(str) ? "Panagram" : "Not Panagram");
 	}
 	
 	public static boolean isPanagram(String str) {
 		
-		//Edge Case
-		str = str.toLowerCase().replaceAll("\\s+","");
+		//Edge Case : remove all characters except a-z
+		str = str.toLowerCase().replaceAll("^[a-z]","");
 		
 		for(char ch ='a' ; ch <= 'z' ;ch++) {
 			
