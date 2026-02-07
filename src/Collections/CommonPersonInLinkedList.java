@@ -59,7 +59,7 @@ public class CommonPersonInLinkedList {
 		
 		System.out.println(set); //[Surya-25, Arun-20, Arjun-36]
 		
-		//Now Check list2 set with list2 and Print common
+		//Now Check list2 set with list1 and Print common
 		for(Person p : list2) {
 			
 			String key = p.name + "-" +p.age;
