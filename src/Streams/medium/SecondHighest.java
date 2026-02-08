@@ -10,12 +10,12 @@ public class SecondHighest {
 		
 		List<Integer> list = Arrays.asList(10, 20, 40, 30, 50);
 		
-					
 					list.stream()
 						.distinct()
 						.sorted(Comparator.reverseOrder())
 						.skip(1)
 						.findFirst()
 						.ifPresent(System.out::println);
+		
 	}
 }
