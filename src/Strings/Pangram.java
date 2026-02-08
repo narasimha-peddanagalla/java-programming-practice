@@ -29,6 +29,6 @@ public class Pangram {
 			}
 		}
 		
-		return true;
+		return true;	
 	}
 }
