@@ -1,4 +1,4 @@
-package Streams;
+package Streams.basic;
 import java.util.*;
 /*
 Problem 9: Find the maximum number in a list using Streams.

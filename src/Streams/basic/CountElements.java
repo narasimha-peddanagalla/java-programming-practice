@@ -1,4 +1,4 @@
-package Streams;
+package Streams.basic;
 import java.util.*;
 /*
 Problem 3: Count the number of elements in a list using Streams.

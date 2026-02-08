@@ -1,4 +1,4 @@
-package Streams;
+package Streams.basic;
 import java.util.*;
 /*
 Problem 12: Check if any number in a list is greater than 50 using Streams.

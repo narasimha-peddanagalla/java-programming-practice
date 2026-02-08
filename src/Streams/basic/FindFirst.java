@@ -1,4 +1,4 @@
-package Streams;
+package Streams.basic;
 import java.util.*;
 /*
 Problem 4: Find the first element in a list using Streams.

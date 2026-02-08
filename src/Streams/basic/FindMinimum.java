@@ -1,4 +1,4 @@
-package Streams;
+package Streams.basic;
 import java.util.*;
 /*
 Problem 10: Find the minimum number in a list using Streams.
